@@ -1,0 +1,103 @@
+/* 1- Explicar como enlazar un archivo css con el archivo html.
+   2- Selector universal
+   3- Selector por etiqueta
+   4- Selector por Clases
+   5- Selector por ID
+   6- Selector por atributo
+   7- Especificidad
+*/
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Selector universal */
+/* * {
+  background: lightblue;
+  color: black;
+} */
+
+/* Selector etiqueta */
+body {
+  background: gainsboro;
+}
+
+h1 {
+  background: blue;
+  color: white;
+}
+
+h2,
+h3,
+h4 {
+  background: purple;
+  color: white;
+}
+
+footer {
+  background: black;
+}
+
+footer p {
+  color: white;
+}
+
+span {
+  color: aqua;
+}
+
+/* Selector de clases */
+
+.Hero {
+  background: lightblue;
+}
+
+.About {
+  background: lightblue;
+}
+
+article .parrafo-articulo {
+  color: blue;
+}
+
+/* Selector por ID */
+
+#enlace1 {
+  color: lightcoral;
+}
+
+#enlace3 {
+  color: orange;
+}
+
+/* Selector por atributos */
+
+img[src='./assets/img/gato.jpg'] {
+  width: 50%;
+}
+
+a[href='nosotros.html'] {
+  color: green;
+}
+
+/* Especificidad
+ 1 - Elemento o etiqueta
+ 2 - Clases y atributos
+ 3 - ID
+ 4 - Inline
+ 5 - !important
+*/
+
+.titulo-principal {
+  color: lightgreen;
+}
+
+h2[atr='nosotros'] {
+  background: green;
+}
+
+#selector-titulo-id {
+  color: palevioletred;
+}
+
+#enlace1 {
+  color: violet !important;
+}
