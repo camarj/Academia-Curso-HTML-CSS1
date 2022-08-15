@@ -1,0 +1,25 @@
+/* 
+   Recursos: https://htmlcolorcodes.com/es/selector-de-color/
+   Recursos: https://cssgradient.io/
+   - Propiedad Color
+   - Colores RGB tres valores y cada valor va del 0 al 255
+   - Colores RGBA Igual que el RGB pero se agrega un cuarto valor que es la transparencia del 0.1 al 1
+   - Colores Hexadecimal Valor hexadecimal con una almohadilla adelante es grupos de 6 caracteres los 2 primeros a rojo los 2 segundo al verde y los 2 terceros al azul y usa valores hexadecimales de 0 a a la f.
+   - Colores HSL los valores van por grados desde 0 a 100% H Tono S saturación L luminosidad.
+   - HSLA El mismo hsl pero con opacidad.
+   - Valor currentcolor.
+   - Propiedad background-color
+   - Propiedad Background 
+   - Degradado lineal = lineal-gradient(dirección, % de ocupación-color1, % de ocupación-color2, % de ocupación-color3)
+   - Degradado radial = radial-gradient(Tamaño, Forma:circle o eclipse, posición = at X Y, )
+*/
+
+.caja {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(0deg, blue 0%, violet 35%, green 100%);
+}
+
+.titulo-color {
+  color: #808000;
+}
