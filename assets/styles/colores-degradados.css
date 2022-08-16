@@ -17,9 +17,14 @@
 .caja {
   width: 400px;
   height: 400px;
-  background: linear-gradient(0deg, blue 0%, violet 35%, green 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(76, 231, 226, 1) 35%,
+    rgba(204, 210, 68, 1) 100%
+  );
 }
 
 .titulo-color {
-  color: #808000;
+  color: #06478e;
 }
