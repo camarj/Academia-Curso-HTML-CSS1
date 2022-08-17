@@ -1,15 +1,33 @@
-/*  0- Display - block, inline, inline-block
-    1- Content
+/*  
+    0- Cuando se muestre el modelo de caja mostrar como se activa las dev tools de chrome.
+    1- Content - width y height
     2- Padding - arriba, derecha, abajo, izquierda
     3- Border - ancho de borde, tipo de borde, color
     4- Margin - arriba, derecha, abajo, izquierda
     5- centrar una caja en pantalla
     6- box-sizing - border-box
+    7- Display - block, inline, inline-block
+
 */
 
-.caja {
+.contenedor {
+  display: block;
+  text-align: center;
+}
+
+.caja1 {
+  display: inline-block;
   background-color: aqua;
-  width: 100px;
+  width: 120px;
+  /* padding: 100px; */
+  border: 8px solid red;
+  /* margin: 20px; */
+  box-sizing: border-box;
+}
+.caja2 {
+  display: inline-block;
+  background-color: aqua;
+  width: 120px;
   /* padding: 100px; */
   border: 8px solid red;
   /* margin: 20px; */
