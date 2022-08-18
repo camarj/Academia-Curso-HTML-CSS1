@@ -1,0 +1,49 @@
+/* 
+    Position:
+    static
+
+    relative - Se posiciona relativamente a su posición original - relative respeta el flujo normal
+    absolute - Se posiciona con respecto a un padre relative y si no tiene un padre en relative toma como posición inicial top 0 left 0 del body - absolute no respeta el flujo.
+    fixed
+
+    Z-INDEX
+
+
+
+*/
+
+body {
+  background-color: #303030;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+}
+
+.caja {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.uno {
+  background-color: red;
+  position: relative;
+  z-index: 2;
+}
+.dos {
+  background-color: green;
+  position: relative;
+  top: -100px;
+  left: 100px;
+}
+.tres {
+  background-color: blue;
+  position: relative;
+  top: -200px;
+  left: 50px;
+}
