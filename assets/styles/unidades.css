@@ -1,0 +1,30 @@
+/* 
+    px - Unidades de medidas fijas el pixel mantiene su tamaño a medida que cambia la pantalla.
+
+    Unidades de medidas relativas:
+    rem - Unidad que toma como referencia el tamaño de la raíz que es el tamaño del font-size del html. 1 rem equivale a el valor de font-size de la raíz.
+    em - Unidad que toma como referencia el font-size que tiene definido el contenedor padre.
+    % - Porcentaje se refiere al numero en porcentaje según su padre.
+
+*/
+
+body {
+  background-color: white;
+}
+
+.caja {
+  color: white;
+  background-color: #acacac;
+  /* font-size: 2rem; */
+  padding: 20px;
+  margin: 0 auto;
+  width: 600px;
+}
+
+/* .titulo {
+  font-size: 2em;
+}
+
+.parrafo {
+  font-size: 1em;
+} */
