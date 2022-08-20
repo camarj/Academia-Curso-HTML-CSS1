@@ -1,13 +1,15 @@
 /* 
-    Position:
-    static
+Propiedad position:
+1 - static
 
-    relative - Se posiciona relativamente a su posición original - relative respeta el flujo normal
-    absolute - Se posiciona con respecto a un padre relative y si no tiene un padre en relative toma como posición inicial top 0 left 0 del body - absolute no respeta el flujo.
-    fixed
+2 - relative
+top, left, right, bottom
 
-    Z-INDEX
+3 - absolute
+top, left, right, bottom
 
+4- fixed
+z-index
 
 
 */
@@ -16,34 +18,47 @@ body {
   background-color: #303030;
 }
 
-nav {
-  background-color: white;
-  width: 100%;
-  height: 40px;
-  position: fixed;
-}
-
 .caja {
+  color: white;
   width: 300px;
   height: 300px;
   padding: 20px;
   margin: 10px;
 }
 
+nav {
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  z-index: 10;
+}
+
 .uno {
   background-color: red;
   position: relative;
-  z-index: 2;
 }
+
+.cajita {
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
 .dos {
   background-color: green;
   position: relative;
-  top: -100px;
+  bottom: 50px;
   left: 100px;
+  z-index: 2;
 }
+
 .tres {
   background-color: blue;
   position: relative;
-  top: -200px;
-  left: 50px;
+  bottom: 200px;
+  z-index: 3;
 }
