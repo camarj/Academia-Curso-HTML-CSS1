@@ -15,16 +15,16 @@ body {
 .caja {
   color: white;
   background-color: #acacac;
-  /* font-size: 2rem; */
+  font-size: 18px;
   padding: 20px;
+  width: 50%;
   margin: 0 auto;
-  width: 600px;
 }
 
-/* .titulo {
+.titulo {
   font-size: 2em;
 }
 
 .parrafo {
   font-size: 1em;
-} */
+}
