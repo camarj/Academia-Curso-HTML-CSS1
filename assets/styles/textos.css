@@ -6,8 +6,12 @@ Propiedades para textos:
 - text-decoration: underline, overline;
 - text-transform: uppercase, lowercase, capitalize;
 - font-weight: normal, bold, bolder, lighter o 100 a 900;
-- font-family: sans-serif serif
-
+- font-family: sans-serif (Sin adornos) serif (Con Adornos en extremos) se coloca la primera fuente que es la principal del sitio y la segunda es de backup.
+- text-align: right - left - center aplica a cualquier elemento inline.
+- line-height: La altura de linea.
+- text-indent: Le da una sangria a la primera linea.
+- text-shadow: eje X , eje Y , desenfoque, color.
+- Agregar fuentes en google fonts.
 */
 
 body {
