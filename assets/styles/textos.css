@@ -1,0 +1,27 @@
+/* 
+Propiedades para textos:
+- color
+- font-size: 16px por defecto;
+- font-style: normal, italic
+- text-decoration: underline, overline;
+- text-transform: uppercase, lowercase, capitalize;
+- font-weight: normal, bold, bolder, lighter o 100 a 900;
+- font-family: sans-serif serif
+
+*/
+
+body {
+  background-color: #303030;
+}
+
+.contenedores {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  margin: 50px auto;
+  padding: 20px 25px;
+  width: 50%;
+}
+
+h2 {
+}
