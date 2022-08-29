@@ -6,16 +6,18 @@ Propiedades para textos:
 - text-decoration: underline, overline;
 - text-transform: uppercase, lowercase, capitalize;
 - font-weight: normal, bold, bolder, lighter o 100 a 900;
-- font-family: sans-serif (Sin adornos) serif (Con Adornos en extremos) se coloca la primera fuente que es la principal del sitio y la segunda es de backup.
+
 - text-align: right - left - center aplica a cualquier elemento inline.
 - line-height: La altura de linea.
 - text-indent: Le da una sangria a la primera linea.
 - text-shadow: eje X , eje Y , desenfoque, color.
 - Agregar fuentes en google fonts.
+- font-family: sans-serif (Sin adornos) serif (Con Adornos en extremos) se coloca la primera fuente que es la principal del sitio y la segunda es de backup.
 */
 
 body {
   background-color: #303030;
+  font-family: 'Roboto', sans-serif;
 }
 
 .contenedores {
@@ -27,5 +29,22 @@ body {
   width: 50%;
 }
 
-h2 {
+.primer-subtitulo {
+  font-style: italic;
+  text-decoration: overline;
+}
+
+.segundo-subtitulo {
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: right;
+}
+
+.parrafo1 {
+  line-height: 1.5;
+  text-indent: 50px;
+}
+
+h1 {
+  text-shadow: 2px 2px 3px gray;
 }
