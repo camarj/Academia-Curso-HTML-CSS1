@@ -1,0 +1,40 @@
+/*
+    - Listas Ordenas
+        - list-style: decimal, upper-latin, lower-latin, upper-roman, lower-roman;
+        - list-style-position: inside, outside;
+        - list-style-image: url("imagen que queramos");
+    - Listas desordenadas
+        - Listas Anidadas
+        - list-style: circle, square, disc. 
+    - Listas descriptivas
+ */
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 3em;
+}
+
+ol {
+  list-style: upper-roman;
+}
+
+ul {
+  /* list-style: square; */
+  list-style-image: url('../img/check.png');
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0.4em 1.2em;
+  background-color: #518bea;
+  color: white;
+  font-size: 1, 2em;
+  font-weight: bold;
+  margin: 1em;
+  border-radius: 8px;
+}
